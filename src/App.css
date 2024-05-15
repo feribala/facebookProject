@@ -1,0 +1,152 @@
+body{
+  background-color: rgb(242, 242, 242);
+}
+#flex-container{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 5px 237px 0;
+  width: 980px;
+}
+.originalLeft{
+  padding: 0 32px 0 0;
+  width: 474px;
+  height: 496px;
+  flex: 1;
+  margin-top: 50px;
+  
+}
+img{
+  padding: 50px 0 16px 0;
+}
+h2{
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+  font-size: 28px;
+  font-weight: normal;
+  line-height: 32px;
+  width: 500px;
+  padding: 0 0 20px;
+}
+
+.originalRight{
+  margin: 40px 0 0 32px;
+  width: 396px;
+  height: 496px;
+  flex: 1;
+}
+.innerRight{
+  background-color: #fff;
+  align-items: center;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+  box-sizing: border-box;
+  margin: 40px 0 0;
+  padding: 25px 0;
+  width: 396px;
+  text-align: center;
+}
+form{
+  width: 396px;
+  height: 315px;
+  text-align: center;
+  padding-left: 20px;
+}
+.login{
+  padding-bottom: 15px;
+}
+
+.mainEmailStyle {
+  font-size: 17px;
+  width: 300px !important;
+  padding: 14px 16px;
+  border-radius: 6px !important;
+  color: #1d2129;
+  border: 1px solid #dadde1;
+}
+.mainPasswordStyle{
+  font-size: 17px;
+  width: 300px !important;
+  padding: 14px 16px;
+  border-radius: 6px !important;
+  color: #1d2129;
+  border: 1px solid #dadde1;
+  margin-top: 12px;
+}
+.mainLinkStyle{
+  color: #fff;
+  font-weight: 600;
+}
+.mavi{
+  background-color: #0866ff;
+  border: none;
+  border-radius: 6px;
+  font-size: 20px;
+  line-height: 60px;
+  padding: 12px 110px;
+  width: 332px;
+  margin-top: 12px;
+}
+.mainTagStyle {
+  font-weight: 600;
+  font-size: 14px;
+  text-decoration: none!important;
+  color: black;
+}
+.mainTagStyle:hover{
+  color: black;
+  text-decoration: underline;
+}
+
+.mavi:hover{
+  background-color: #357df2;
+  color:white;
+  text-decoration: none;
+
+}
+.tag{
+  color: #0866ff;
+  background-color: inherit;
+  font-size: 14px;
+  font-weight: 500;
+  border: 0 solid white!important;
+  display: block;
+  font-weight: 600px;
+  
+  }
+.justLine{
+  align-items: center;
+  border-bottom: 1px solid #dadde1;
+  display: flex;
+  margin: 20px 16px;
+  text-align: center;
+}
+.yeşil{
+  background-color: #42b72a;
+  border: none;
+  border-color: #42b72a;
+  border-radius: 6px;
+  font-size: 17px;
+  line-height: 48px;
+  padding: 12px 16px;
+  }
+  .yeşil:hover{
+    background-color: #38af20;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .lastDiv{
+    padding: 10px 0 0 35px;
+
+  }
+  input:focus{
+    outline: none;
+  }
+.footer{
+  background-color: #fff;
+  height: 200px;
+}
+
+

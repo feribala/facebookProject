@@ -1,0 +1,91 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.allpage{
+    padding-left: auto;
+    padding-right: auto;
+}
+.navList{
+    background-color: #4267b2;
+    box-shadow:0px 0px 5px rgb(212, 209, 209);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 260px;
+    color: white;
+}
+.navItem:thirdthchil{
+ 
+}
+.navItem{
+    margin-right: 10px;
+}
+.kaydol{
+    background-color: #42b72a;
+    padding: 5px 8px;
+    border-radius: 2px;
+}
+.kaydol:hover{
+    background-color: #38af20;
+    color: white;
+    text-decoration: none;
+}
+p{
+    margin-left:400px;
+}
+.componentBox{
+    display: flex;
+    justify-content: center;
+    align-self:center;
+}
+.component{
+    background-color: white;
+    text-align: center;
+    width: 480px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    margin: 20px 0 0 20px;
+    padding-bottom: 20px;
+    
+}
+.photos{
+    padding-top: 25px;
+    padding-bottom: 30px;
+    width: fit-content;
+}
+.text1{
+   font-weight: bolder;
+   font-size: 18px;
+}
+.text2{
+    color: gray;
+    font-size: 14px;
+    padding: 15px 20px 40px 20px;
+}
+.textpart{
+    padding:20px 270px;
+}
+.başla{
+    background-color: rgb(233, 230, 238);
+    box-shadow: 0 2px 3px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    color: rgb(144, 141, 141);
+    border: none;
+    padding: 5px 10px;
+}
+.icon{
+    padding-left: 10px;
+    background-color: inherit;
+    border: none;
+    color: white;
+}
+.hiddenDiv{
+    font-size: 12px;
+    width: 270px;
+    background-color: white;
+    padding-left: 10px;
+    right: 350px ;
+    position: absolute;
+    top: 65px;
+    border-radius: 3px;
+    line-height: 28px;
+}

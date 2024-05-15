@@ -1,0 +1,51 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 0;
+}
+img{
+    width: 220px;
+    height: 100%;
+}
+.whiteBox{
+    background-color: white;
+    width: 410px;
+    height: 390px;
+    margin: 20px auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    border-radius: 8px;
+    border: none ;
+    padding-bottom: 20px;
+}
+form{
+    margin-left: 0;
+    padding-left: 0;
+}
+.width{
+    width: 95%!important;
+    margin-left: 20px;
+}
+.title{
+   margin: 20px 110px;
+   font-weight: 600;
+   font-size: 18px;
+}
+.redBox{
+    border:1px solid #f02849;
+    background-color: #f3e7e9;
+    width: 95%;
+    height: 55px;
+    margin-left: 20px;
+    font-size: 13px;
+    font-weight: 500;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+.footer{
+    background-color: white;
+    width: 100%;
+}
